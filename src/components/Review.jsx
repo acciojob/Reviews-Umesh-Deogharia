@@ -24,7 +24,7 @@ export default function Review() {
   return (
     <div>
       <img src={image}  alt={name} className="person-img" />
-      <h1 id = {`author-${id}`}>{name}</h1>
+      <h1 id = {`author-${id}`} className="author">{name}</h1>
       <p className="job">{job}</p>
       <p className="info">{text}</p>
 
