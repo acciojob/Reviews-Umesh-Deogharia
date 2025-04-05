@@ -3,7 +3,7 @@ import Review from "./Review";
 const App = () => {
   return (
     <main>
-      <section className="container" title="Reviews">
+      <section className="review" title="Reviews">
          <h1 id="review-heading">Our Reviews</h1>         
         <Review/>        
       </section>
